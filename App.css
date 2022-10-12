@@ -1,0 +1,31 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.game-title{
+  text-align: center;
+  font-weight: 500;
+  margin: 10px auto;
+}
+
+.snake-ladder-grid{
+  min-width: 100vh;
+  min-height: 100vh;
+  display: grid;
+  grid-template: repeat(10,1fr)/repeat(10,1fr);
+  border: 1px solid;
+  background-color: black;
+  color: white;
+}
+
+.snake-ladder-cell{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border: 1px dotted red;
+  padding: 3px;
+}
+
+
